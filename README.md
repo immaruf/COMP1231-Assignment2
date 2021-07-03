@@ -23,10 +23,12 @@ Create a JavaScript function that meets the following requirements:
 * Displays the calculated information as illustrated below:
 
 ```Calling uniqueArray([33]) ➔ [33]```
+
 ```Calling uniqueArray([33, 33, 1, 4]) ➔ [1, 4]```
+
 ```Calling uniqueArray([33, 33, 1, 4, 1]) ➔ [4]```
 
-## Fail / Pass Averages
+## Fail/Pass Averages
 `function failPassAvg(arr)`
 
 Create a JavaScript function that meets the following requirements:
@@ -39,7 +41,9 @@ Create a JavaScript function that meets the following requirements:
 * Displays the calculated information as illustrated below:
 
 ```Calling failPassAvg(([63, 65, 33]) ➔ [33, 64]```
+
 ```Calling failPassAvg(([[63, 62, 100, 100]]) ➔ [-1, 81]```
+
 ```Calling failPassAvg(([33, 42, 20, 10]) ➔ [26, -1]```
 
 ## Check Date
@@ -59,11 +63,17 @@ Create a JavaScript function that meets the following requirements:
 * Displays the calculated information as illustrated below:
 
 ```Calling checkDate("January 21") ➔ true```
+
 ```Calling checkDate("Auust 3") ➔ false```
+
 ```Calling checkDate("June 15B") ➔ false```
+
 ```Calling checkDate("February 0") ➔ false```
+
 ```Calling checkDate("December 3k1") ➔false```
+
 ```Calling checkDate("February 29") ➔ false```
+
 ```Calling checkDate("February 28") ➔ true```
 
 ## How many Days Between
@@ -76,7 +86,9 @@ Create a JavaScript function that meets the following requirements:
 * Displays the calculated information as illustrated below:
 
 ```Calling daysBetweenTwoDates("June 14, 2021", "June 20, 2021") ➔ 6 ```
+
 ```Calling daysBetweenTwoDates("December 29, 2021", "January 1, 2022") ➔ 3 ```
+
 ```Calling daysBetweenTwoDates("July 20, 2021", "July 30, 2021") ➔ 10 ```
 
 ## Swap Characters
@@ -90,7 +102,9 @@ Create a JavaScript function that meets the following requirements:
 * Displays the result to the console as illustrated below.
 
 ```Calling swapCharacter("aabbccc", "a", "b") ➔ "bbaaccc"```
+
 ```Calling swapCharacter("random w#rds writt&n h&r&", "#", "&") ➔ "random w&rds writt#n h#r#"```
+
 ```Calling swapCharacter("128 895 556 788 999", "8", "9") ➔ "129 985 556 799 888"```
 
 ## Move Capital Letters
@@ -104,7 +118,9 @@ Create a JavaScript function that meets the following requirements:
 * Displays the result to the console as illustrated below:
 
 ```Calling moveCapitalToFront("hApPy") ➔ "APhpy"```
+
 ```Calling moveCapitalToFront("moveMENT") ➔ "MENTmove"```
+
 ```Calling moveCapitalToFront("shOrtCAKE") ➔ "OCAKEshrt"```
 
 ## Leading Zeros
@@ -119,8 +135,11 @@ Create a JavaScript function that meets the following requirements:
 * Displays the results to the console as illustrated below:
 
 ```Calling trimZero("230.000") ➔ "230"```
+
 ```Calling trimZero("00402") ➔ "402"```
+
 ```Calling trimZero("03.1400") ➔ "3.14"```
+
 ```Calling trimZero("30") ➔ "30"```
 
 ## Sort Me
@@ -136,7 +155,9 @@ Create a JavaScript function that meets the following requirements:
 * Displays the result to the console as illustrated below:
 
 ```Calling sortArray([4, 3, 2, 1], "Asc")  ➔ [1, 2, 3, 4] ```
+
 ```Calling sortArray([7, 8, 11, 66], "Des")  ➔ [66, 11, 8, 7] ```
+
 ```Calling sortArray([1, 2, 3, 4], "None")  ➔ [1, 2, 3, 4] ```
 
 ## Repeating Characters
@@ -151,8 +172,11 @@ Create a JavaScript function that meets the following requirements:
 * Displays the result to the console as illustrated below.
 
 ```Calling repeatingCharacter(“legolas”) ➔ "l"```
+
 ```Calling repeatingCharacter(“Gandalf”) ➔ "a"```
+
 ```Calling repeatingCharacter(“Balrog”) ➔ "-1"```
+
 ```Calling repeatingCharacter(“Isildur”) ➔ "-l"```
 
 ## Capitalize first Letter of Each Word
@@ -166,6 +190,9 @@ Create a JavaScript function that meets the following requirements:
 * Displays the result to the console as illustrated below.
 
 ```Calling capitalizeFirstLetter("This is a title") ➔ "This Is A Title"```
+
 ```Calling capitalizeFirstLetter("capitalize every word") ➔ "Capitalize Every Word"```
+
 ```Calling capitalizeFirstLetter("I Like Pizza") ➔ "I Like Pizza"```
+
 ```Calling capitalizeFirstLetter("PIZZA PIZZA PIZZA") ➔ "PIZZA PIZZA PIZZA"```
