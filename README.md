@@ -3,7 +3,7 @@
 # Table of Contents
 
 1. [Function 1A](#Unique-Array)
-2. [Function 2A](#Fail/Pass-Averages)
+2. [Function 2A](#Fail-Pass-Averages)
 1. [Function 3A](#Check-Date)
 2. [Function 4A](#How-many-Days-Between)
 1. [Function 5A](#Swap-Characters)
@@ -28,7 +28,7 @@ Create a JavaScript function that meets the following requirements:
 
 ```Calling uniqueArray([33, 33, 1, 4, 1]) ➔ [4]```
 
-## Fail/Pass Averages
+## Fail Pass Averages
 `function failPassAvg(arr)`
 
 Create a JavaScript function that meets the following requirements:
@@ -149,9 +149,9 @@ Create a JavaScript function that meets the following requirements:
 * Please give your function a descriptive name
 * That takes in an array of integers, and a string (“Asc”, “Des”, “None”)
 * The function returns the array of number according to the following rules
-  - “Asc” returns a sorted array in ascending order
-  - “Des” returns a sorted array in descending order
-  - “None” returns an array without any modification
+  - “***Asc***” returns a sorted array in ascending order
+  - “***Des***” returns a sorted array in descending order
+  - “***None***” returns an array without any modification
 * Displays the result to the console as illustrated below:
 
 ```Calling sortArray([4, 3, 2, 1], "Asc")  ➔ [1, 2, 3, 4] ```
